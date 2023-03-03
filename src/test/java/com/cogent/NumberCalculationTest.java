@@ -34,7 +34,7 @@ public class NumberCalculationTest {
 
 		@Test
 		void addPositive_Negative() {
-			assertEquals(9, nc.add(1, -1));
+			assertEquals(0, nc.add(1, -1));
 		}
 
 		@Test
